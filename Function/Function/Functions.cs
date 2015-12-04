@@ -1222,9 +1222,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> function { get; }
 
         #region Types
@@ -1299,9 +1296,7 @@ namespace Functions
                 return typeof(T9);
             }
         }
-
-
-
+        
         public Type TResultType
         {
             get
@@ -1322,10 +1317,7 @@ namespace Functions
         {
             function = _func;
         }
-
-
-
-
+        
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9));
 
@@ -1441,9 +1433,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> function { get; }
 
         #region Types
@@ -1527,8 +1516,6 @@ namespace Functions
             }
         }
 
-
-
         public Type TResultType
         {
             get
@@ -1549,10 +1536,7 @@ namespace Functions
         {
             function = _func;
         }
-
-
-
-
+        
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10));
 
@@ -1674,9 +1658,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> function { get; }
 
         #region Types
@@ -1766,9 +1747,7 @@ namespace Functions
             {
                 return typeof(T11);
             }
-        }
-
-
+        }       
 
         public Type TResultType
         {
@@ -1789,10 +1768,7 @@ namespace Functions
         public Function(Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> _func)
         {
             function = _func;
-        }
-
-
-
+        }        
 
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11));
@@ -2022,8 +1998,6 @@ namespace Functions
             }
         }
 
-
-
         public Type TResultType
         {
             get
@@ -2043,10 +2017,7 @@ namespace Functions
         public Function(Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> _func)
         {
             function = _func;
-        }
-
-
-
+        }        
 
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12));
@@ -2185,9 +2156,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> function { get; }
 
         #region Types
@@ -2294,9 +2262,7 @@ namespace Functions
                 return typeof(T13);
             }
         }
-
-
-
+        
         public Type TResultType
         {
             get
@@ -2463,9 +2429,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> function { get; }
 
         #region Types
@@ -2581,8 +2544,6 @@ namespace Functions
             }
         }
 
-
-
         public Type TResultType
         {
             get
@@ -2603,9 +2564,6 @@ namespace Functions
         {
             function = _func;
         }
-
-
-
 
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14));
@@ -2761,9 +2719,6 @@ namespace Functions
 
     public class Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
     {
-
-
-
         public Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> function { get; }
 
         #region Types
@@ -2886,9 +2841,7 @@ namespace Functions
                 return typeof(T15);
             }
         }
-
-
-
+        
         public Type TResultType
         {
             get
@@ -2909,10 +2862,7 @@ namespace Functions
         {
             function = _func;
         }
-
-
-
-
+   
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15));
 
@@ -3207,9 +3157,7 @@ namespace Functions
                 return typeof(T16);
             }
         }
-
-
-
+        
         public Type TResultType
         {
             get
@@ -3230,10 +3178,7 @@ namespace Functions
         {
             function = _func;
         }
-
-
-
-
+        
         public Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> PartiallyApply() =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>((arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16) => function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16));
 
