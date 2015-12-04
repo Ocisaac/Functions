@@ -1,8 +1,0 @@
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\bin\Debug\Function.dll
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\bin\Debug\Function.pdb
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\user\Documents\Visual Studio 2015\Projects\Function\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
