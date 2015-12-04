@@ -40,7 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunctionT10.cs" />
+    <Compile Include="FunctionT11.cs" />
+    <Compile Include="FunctionT12.cs" />
+    <Compile Include="FunctionT13.cs" />
+    <Compile Include="FunctionT14.cs" />
+    <Compile Include="FunctionT15.cs" />
+    <Compile Include="FunctionT16.cs" />
+    <Compile Include="FunctionTR.cs" />
     <Compile Include="Functions.cs" />
+    <Compile Include="FunctionT_1.cs" />
+    <Compile Include="FunctionT_2.cs" />
+    <Compile Include="FunctionT_3.cs" />
+    <Compile Include="FunctionT_4.cs" />
+    <Compile Include="FunctionT_5.cs" />
+    <Compile Include="FunctionT_6.cs" />
+    <Compile Include="FunctionT_7.cs" />
+    <Compile Include="FunctionT_8.cs" />
+    <Compile Include="FunctionT_9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
