@@ -1,0 +1,4 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\Function\Function\bin\Release\Function.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Function\Function\bin\Release\Function.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Function\Function\obj\Release\Function.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\Function\Function\obj\Release\Function.pdb
