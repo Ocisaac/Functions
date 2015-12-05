@@ -14,7 +14,8 @@ Here's some code examples -
 ```sh
 var get5 = new Function<int>( () => 5 ); //Creates a function that takes nothing and returns five
 
-var add = FunctionBuilder((a, b) => a + b);  //Creates a function that takes i and adds 3 to it, without the need to specify the types in <>
+//Creates a function that takes i and adds 3 to it, without the need to specify the types in <> when the compiler can infer the types
+var add = FunctionBuilder.GetFunction<int, int, int>((a, b) => a + b); 
 
 var add3 = add.PartiallyApply(3); //Creates a function that is add with the fisrt parameter set always to 3
 
