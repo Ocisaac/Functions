@@ -298,7 +298,7 @@ namespace Functions
             fun1.function != fun2.function;
 
         public override bool Equals(object obj) =>
-            function.Equals(obj);
+            function.Equals((obj as Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>).function);
 
         public static explicit operator Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>(Expression<Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>> funcExp) =>
             new Function<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>(funcExp.Compile());

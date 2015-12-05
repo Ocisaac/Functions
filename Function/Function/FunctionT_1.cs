@@ -68,7 +68,7 @@ namespace Functions
             fun1.function != fun2.function;
 
         public override bool Equals(object obj) =>
-            function.Equals(obj);
+            function.Equals((obj as Function<T1, TResult>).function);
 
         public static explicit operator Function<T1, TResult>(Expression<Func<T1, TResult>> funcExp) =>
             new Function<T1, TResult>(funcExp.Compile());
