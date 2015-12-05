@@ -9,7 +9,7 @@ This is the first library and code I publish and the first time I work with Gith
 
 # How to use the library
 
-Here's some code examples - 
+Here are some code examples - 
 
 ```sh
 var get5 = new Function<int>( () => 5 ); //Creates a function that takes nothing and returns five
