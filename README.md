@@ -24,9 +24,10 @@ var printMessage = FunctionActionBuilder( m => Console.WriteLine(m));
 
 var eight = get8.Apply(); // returns 8
 
-/* INCORRECT */
+//INCORRECT 
 var o = printMessage.Apply("Hey!"); // returns a null object
-/* CORRECT */
+
+//CORRECT
 printMessage.Apply("Hey!") // the null object is not used
 '''
 
