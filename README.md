@@ -11,7 +11,7 @@ This is the first library and code I publish and the first time I work with Gith
 
 Here's some code examples - 
 
-'''sh
+```sh
 var get5 = new Function<int>( () => 5 ); //Creates a function that takes nothing and returns five
 
 var add = FunctionBuilder((a, b) => a + b);  //Creates a function that takes i and adds 3 to it, without the need to specify the types in <>
@@ -29,6 +29,6 @@ var o = printMessage.Apply("Hey!"); // returns a null object
 
 //CORRECT
 printMessage.Apply("Hey!") // the null object is not used
-'''
+```
 
 Note that function addition is not the same as chaining, it is equivalent to delegate adding.
