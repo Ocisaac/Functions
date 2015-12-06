@@ -17,11 +17,11 @@ var get5 = new Function<int>( () => 5 ); //Creates a function that takes nothing
 //Creates a function that takes i and adds 3 to it, without the need to specify the types in <> when the compiler can infer the types
 var add = FunctionBuilder.GetFunction<int, int, int>((a, b) => a + b); 
 
-var add3 = add.PartiallyApply(3); //Creates a function that is add with the fisrt parameter set always to 3
+var add3 = add.PartiallyApply(3); //Creates a function that is add with the first parameter set always to 3
 
 var get8 = get5.ChainWith(add3); // Chains get5's output with add3's input
 
-var printMessage = FunctionActionBuilder.GetFunction<string>(m => Console.WriteLine(m));
+var printMessage = ActionFunctionBuilder.GetFunction<string>(m => Console.WriteLine(m));
 
 var eight = get8.Apply(); // returns 8
 
