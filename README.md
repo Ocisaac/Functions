@@ -21,7 +21,7 @@ var add3 = add.PartiallyApply(3); //Creates a function that is add with the fisr
 
 var get8 = get5.ChainWith(add3); // Chains get5's output with add3's input
 
-var printMessage = FunctionActionBuilder( m => Console.WriteLine(m));
+var printMessage = FunctionActionBuilder.GetFunction<string>(m => Console.WriteLine(m));
 
 var eight = get8.Apply(); // returns 8
 
