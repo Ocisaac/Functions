@@ -1,7 +1,7 @@
 # C# Functions
 I created functional-programming-like functions in C#.
 
-Functions can be partaily applyed, added, subtracted and compared.
+Functions can be partailly applyed, added, subtracted and compared.
 
 I have also added a Chainer, which lets you chain functions togther, and a few other classes to help you work better with functions
 
