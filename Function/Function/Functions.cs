@@ -156,7 +156,6 @@ namespace Functions
 
     #endregion
 
-
     /// <summary>
     /// Chains a function's output with a functions input. 
     /// Returns result as a new function.
