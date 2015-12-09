@@ -7,5 +7,3 @@ C:\Users\user\Desktop\GitHub\Functions\Function\Function\bin\Release\Function.pd
 C:\Users\user\Desktop\GitHub\Functions\Function\Function\obj\Release\Functions.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\GitHub\Functions\Function\Function\obj\Release\Function.dll
 C:\Users\user\Desktop\GitHub\Functions\Function\Function\obj\Release\Function.pdb
-C:\Users\user\Desktop\GitHub\Functions\Function\Function\bin\Release\Function.dll.CodeAnalysisLog.xml
-C:\Users\user\Desktop\GitHub\Functions\Function\Function\bin\Release\Function.dll.lastcodeanalysissucceeded
