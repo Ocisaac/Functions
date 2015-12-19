@@ -32,4 +32,4 @@ var o = printMessage.Apply("Hey!"); // returns a null object
 printMessage.Apply("Hey!") // the null object is not used
 ```
 
-Note that function addition is not the same as chaining, it is equivalent to delegate adding.
+Note that function addition is not the same as chaining, it is equivalent to delegate addtion.
