@@ -1,4 +1,4 @@
-# C# Functions
+###C# Functions
 I created functional-programming-like functions in C#.
 
 Functions can be partailly applyed, added, subtracted and compared.
@@ -7,11 +7,11 @@ I have also added a Chainer, which lets you chain functions togther, and a few o
 
 This is the first library and code I publish and the first time I work with Github, and I hope I've done everything correctly.
 
-# How to use the library
+##How to use the library
 
 Here are some code examples - 
 
-```sh
+```csharp
 var get5 = new Function<int>( () => 5 ); //Creates a function that takes nothing and returns five
 
 //Creates a function that takes a and b and adds them to echother, without the need to specify the types in <> when the compiler can infer the types
@@ -32,4 +32,4 @@ var o = printMessage.Apply("Hey!"); // returns a null object
 printMessage.Apply("Hey!") // the null object is not used
 ```
 
-Note that function addition is not the same as chaining, it is equivalent to delegate addtion.
+Note that function addition is not the same as chaining, it is equivalent to delegate addtion
